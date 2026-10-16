@@ -1,0 +1,37 @@
+&e&m                                                                                &r
+&e&l                   ✦ &f&lkdyMC 2.0 &e&l✦ &7- &fSunucu Rehberi
+&f  Hoş geldin, &e{DISPLAYNAME}&f! Kalitenin ve maceranın adresi.
+&7  Aktif Oyuncular: &e{ONLINE}&7 | Web: &ekdymc.7m.net.tr &7| Discord: &e/discord
+
+&e&l  ✦ TEMEL VE IŞINLANMA KOMUTLARI:
+&e  • &f/spawn &7- Başlangıç merkezine ışınlanırsınız.
+&e  • &f/sethome <isim> &7& &f/home <isim> &7- Evinizi kaydeder ve ışınlanırsınız.
+&e  • &f/tpa <oyuncu> &7& &f/tpaccept &7- Işınlanma isteği gönderir ve kabul edersiniz.
+&e  • &f/tpdeny &7- Gelen ışınlanma isteklerini reddedersiniz.
+&e  • &f/warp <isim> &7- Sunucu içerisindeki özel bölgelere ışınlanırsınız.
+&e  • &f/back &7- Öldüğünüz yere veya son ışınlandığınız konuma dönersiniz.
+
+&e&l  ✦ EKONOMİ VE TİCARET:
+&e  • &f/balance &7(veya &f/money&7) - Mevcut bakiyenizi görüntülersiniz.
+&e  • &f/pay <oyuncu> <miktar> &7- Bir oyuncuya para transfer edersiniz.
+&e  • &f/ah &7- İhale pazarını açar (&e/ah sell <fiyat>&7 ile elinizdeki eşyayı satarsınız).
+&e  • &f/qs &7- Sandık marketi kurma (Sandığa eşyayla sol tıklayıp fiyata girin).
+
+&e&l  ✦ MESLEKLER (JOBS):
+&e  • &f/jobs browse &7- Meslekler menüsünü açar.
+&e  • &f/jobs join <meslek> &7- Seçtiğiniz mesleğe katılarak para ve exp kazanırsınız.
+&e  • &f/jobs stats &7- Meslek seviyenizi ve ilerlemenizi gösterir.
+
+&e&l  ✦ ARAZİ VE KORUMA (CLAIM):
+&e  • &f/kit claim &7- Başlangıç için altın kürek ve koruma eşyalarını alırsınız.
+&e  • &f/trust <oyuncu> &7- Claim alanınıza arkadaşınızı ortak eklersiniz.
+&e  • &f/containertrust <oyuncu> &7- Sandık ve depolara erişim yetkisi verirsiniz.
+&e  • &f/untrust <oyuncu> &7- Verilen claim yetkisini geri alırsınız.
+&e  • &f/abandonclaim &7- Bulunduğunuz claim'i silersiniz.
+
+&e&l  ✦ DİĞER KOMUTLAR:
+&e  • &f/sit &7- Oturursunuz (&f/lay &7ile uzanabilir, &f/crawl &7ile sürünebilirsiniz).
+&e  • &f/points &7- Özel oyuncu puanı bakiyenizi gösterir.
+&e  • &f/discord &7- Resmi Discord topluluk davet bağlantımızı alırsınız.
+&e  • &f/motd &7- Bu yardım ve komut rehberini sohbetinizde tekrar açar.
+&e&m                                                                                &r

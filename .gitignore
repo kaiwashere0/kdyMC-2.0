@@ -1,0 +1,26 @@
+cache/
+versions/
+.paper-remapped/
+plugins/.paper-remapped/
+plugins/WorldEdit/.archive-unpack/
+.archive-unpack/
+libraries/
+
+# Logs & Crash Reports
+logs/
+crash-reports/
+
+# Session & Cache Files
+usercache.json
+version_history.json
+*.lock
+session.lock
+
+# OS & Temp Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.lck
+plugins/*/tmp/
+

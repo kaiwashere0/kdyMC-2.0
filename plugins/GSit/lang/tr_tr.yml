@@ -1,0 +1,48 @@
+Plugin:
+  plugin-enabled: '[P] &fEklenti başarıyla etkinleştirildi.'
+  plugin-link: '[P] &e%Link% &file bağlantı başarılı!'
+  plugin-update: '[P] &fYeni sürüm mevcut: &e%NewVersion%&f!'
+  plugin-data: '[P] &cVeri depolama alanıyla bağlantı kurulamadı.'
+  plugin-version: '[P] &cEklenti bu sunucu sürümüyle kullanılamaz! (&b%Version%&c)'
+  plugin-reload: '[P] &fYapılandırma başarıyla yenilendi.'
+  plugin-disabled: '[P] &7Eklenti devre dışı bırakıldı.'
+  plugin-prefix: '&e&l[kdyMC 2.0]'
+
+Messages:
+  command-permission-error: '[P] &fBu komutu kullanmak için &e&oyetkiniz bulunmuyor!'
+  command-sender-error: '[P] &fBu komut buradan çalıştırılamaz!'
+  command-version-error: '[P] &cEski sunucu sürümü!'
+  
+  command-gsit-toggle-on: '[P] &fOturma özelliği &e&laktif &fedildi.'
+  command-gsit-toggle-off: '[P] &fOturma özelliği &7kapatıldı.'
+  command-gsit-playertoggle-on: '[P] &fOyuncuya oturma &e&laktif &fedildi.'
+  command-gsit-playertoggle-off: '[P] &fOyuncuya oturma &7kapatıldı.'
+  command-gcrawl-toggle-on: '[P] &fSürünme &e&laktif &fedildi.'
+  command-gcrawl-toggle-off: '[P] &fSürünme &7kapatıldı.'
+  
+  action-sit-now-error: '[P] &fŞu anda oturamazsınız!'
+  action-sit-world-error: '[P] &fBu dünyada oturamazsınız!'
+  action-sit-location-error: '[P] &fBuraya oturamazsınız!'
+  action-sit-safe-error: '[P] &fBurada oturmak güvenli değil!'
+  action-sit-region-error: '[P] &fBu bölgede oturamazsınız!'
+  action-sit-kick-error: '[P] &fBirisi zaten burada oturuyor!'
+  action-sit-error: '[P] &fBurada oturamazsınız!'
+  action-sit-info: '&fAyağa kalkmak için: &e&l<lang:key.sneak>'
+  
+  action-playersit-info: '&a Ayağa kalkmak için &6<lang:key.sneak>'
+  
+  action-pose-now-error: '[P]&c Şu anda poz veremezsin!'
+  action-pose-world-error: '[P]&c Bu dünyada poz veremezsin!'
+  action-pose-location-error: '[P]&c Burada poz veremezsin!'
+  action-pose-safe-error: '[P]&c Burada poz vermek güvenli değil!'
+  action-pose-region-error: '[P]&c Bu bölgede poz veremezsiniz!'
+  action-pose-kick-error: '[P]&c Birisi zaten burada poz veriyor!'
+  action-pose-error: '[P]&c Bir hatadan dolayı burada poz veremezsiniz!'
+  action-pose-info: '&a Ayağa kalkmak için &6<lang:key.sneak>'
+  
+  action-crawl-now-error: '[P]&c Şu anda sürünemezsin!'
+  action-crawl-world-error: '[P]&c Bu dünyada sürünemezsin!'
+  action-crawl-region-error: '[P]&c Bu bölgede sürünemezsiniz!'
+  action-crawl-info: '&a Ayağa kalkmak için &6<lang:key.sneak>'
+  
+  action-blocked-error: '[P]&c Şu anda bu komutu çalıştırmak için izniniz yok!'

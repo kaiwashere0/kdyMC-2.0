@@ -1,0 +1,362 @@
+# ===============================================
+# GENERAL MESSAGES
+# ===============================================
+general:
+  prefix: "&e&l[kdyMC 2.0 &7İhale&e&l] &f"
+  no-permission: "{prefix}&cBu eylemi gerçekleştirmek için yetkiniz yok!"
+  player-only: "{prefix}&cBu komut yalnızca oyuncular tarafından kullanılabilir!"
+  database-error: "{prefix}&cVeritabanı hatası oluştu. Lütfen yöneticiye bildirin."
+  reload-success: "{prefix}&aYapılandırma başarıyla yeniden yüklendi!"
+  unknown-command: "{prefix}&cBilinmeyen komut. Komut listesi için &e/ah help &cyazın."
+
+# ===============================================
+# SELLING MESSAGES
+# ===============================================
+sell:
+  success: "{prefix}&aBaşarıyla &e{item} &ax&e{amount} &aadedini &e{currency}{price} &afiyatla satışa koydunuz!"
+  success-with-tax: "{prefix}&aBaşarıyla &e{item} &ax&e{amount} &aadedini &e{currency}{price} &afiyatla satışa koydunuz &7(Vergi: &e{currency}{tax}&7)!"
+  no-item: "{prefix}&cSatmak için elinizde bir eşya tutmalısınız!"
+  invalid-price: "{prefix}&cGeçersiz fiyat! Pozitif bir sayı girmelisiniz."
+  limit-reached: "{prefix}&cMaksimum satış ilan limitinize ulaştınız! (&e{current}/{max}&c)"
+  not-enough-money: "{prefix}&cİlan ücretini ödemek için yeterli paranız yok! (Gereken: &e{currency}{amount}&c)"
+  usage: "{prefix}&cKullanım: &e/ah sell <fiyat>"
+  price-must-be-positive: "{prefix}&cFiyat 0'dan büyük olmalıdır."
+  not-enough-money-tax: "{prefix}&c{currency}{amount} tutarındaki ilan vergisini ödeyecek paranız yok."
+  tax-paid: "{prefix}&e{currency}{amount} tutarında ilan vergisi ödediniz (fiyatın %{rate}'i)."
+  tax-refunded: "{prefix}&a{currency}{amount} tutarındaki ilan verginiz iade edildi."
+  failed-contact-admin: "{prefix}&cEşya satışa koyulurken hata oluştu! Yönetici ile iletişime geçin."
+  listings-count: "{prefix}&7Şu anda aktif &e{current}/{max} &7ilanınız bulunuyor."
+
+# ===============================================
+# NOTIFICATION MESSAGES
+# ===============================================
+notifications:
+  login:
+    items-sold:    "&e&l[kdyMC 2.0 &7İhale&e&l] &fSiz çevrimdışıyken &e{count} &feşyanız satıldı! &e/ah listings &file kontrol edin."
+    items-to-claim: "&e&l[kdyMC 2.0 &7İhale&e&l] &fTeslim alınmayı bekleyen &e{count} &feşyanız var. Almak için: &e/ah claim"
+
+  # Sent immediately when seller is online at time of purchase
+  item-sold-online: "&e&l[kdyMC 2.0 &7İhale&e&l] &e{buyer} &fadlı oyuncu eşyanızı &e{currency}{price} &fkarşılığında satın aldı!"
+
+# ===============================================
+# SETTINGS MESSAGES
+# ===============================================
+settings:
+  sold-notify-name:  "&eSatış Bildirimleri"
+  sold-notify-lore:  "&7Durum: {status}"
+  claim-notify-name: "&eTeslim Alınabilir Eşya Bildirimleri"
+  claim-notify-lore: "&7Durum: {status}"
+  click-to-toggle:   "&eDeğiştirmek için tıklayın"
+  status-on:         "&aAÇIK"
+  status-off:        "&cKAPALI"
+
+# ===============================================
+# SORT MESSAGES
+# ===============================================
+sort:
+  recent:     "En Son Eklenenler"
+  price_high: "En Yüksek Fiyat"
+  price_low:  "En Düşük Fiyat"
+
+  # Lore lines for the sort button (non-active / active variants)
+  lore-recent:           "&7▸ En Son Eklenenler"
+  lore-recent-active:    "&e▶ En Son Eklenenler"
+  lore-price-high:       "&7▸ En Yüksek Fiyat"
+  lore-price-high-active: "&e▶ En Yüksek Fiyat"
+  lore-price-low:        "&7▸ En Düşük Fiyat"
+  lore-price-low-active: "&e▶ En Düşük Fiyat"
+  lore-hint:             "&8Sıralamayı değiştirmek için tıklayın"
+
+# ===============================================
+# GUI MESSAGES
+# ===============================================
+gui:
+  titles:
+    auction-house-title: "&e&lkdyMC &fİhale Pazarı &7(Sayfa {page})"
+    my-listings-title: "&e&lİlanlarım &7(Sayfa {page})"
+    confirm-purchase-title: "&e&lSatın Almayı Onayla"
+    confirm-cancel-title: "&c&lİptali Onayla"
+    shulker-preview-title: "&e&lShulker Kutusu Önizleme"
+    settings-title: "&eİhale Ayarları"
+
+# ========================================
+# AUCTION HOUSE ITEM LORE
+# ========================================
+lore:
+  auction:
+    price: "&eFiyat: &f{price}"
+    seller: "&eSatıcı: &f{seller}"
+    server: "&eSunucu: &f{server}"
+    expires-in: "&eKalan Süre: &f{time}"
+    expired: "&eKalan Süre: &cSüresi Doldu"
+    preview-shulker: "&eSağ Tık: &7İçeriği önizle"
+    purchase-shulker: "&eSol Tık: &fSatın al"
+    purchase-normal: "&eTıkla: &fSatın al"
+    id: "&8ID: {id}"
+
+# ========================================
+# MY LISTINGS ITEM LORE
+# ========================================
+  my-listing:
+    price: "&eFiyat: &f{price}"
+    server: "&eSunucu: &f{server}"
+    expires-in: "&eKalan Süre: &f{time}"
+    expired: "&eKalan Süre: &cSüresi Doldu"
+    preview-shulker: "&eSağ Tık: &7İçeriği önizle"
+    cancel-shulker: "&cSol Tık: &7İlanı iptal et"
+    cancel-normal: "&cTıkla: &7İlanı iptal et"
+    id: "&8ID: {id}"
+
+# ========================================
+# CONFIRM PURCHASE GUI
+# ========================================
+  confirm-purchase:
+    confirm-button-name: "&aSatın Almayı Onayla"
+    confirm-lore-1: "&7Satın almayı onaylamak için tıklayın"
+    confirm-lore-2: "&7Fiyat: &e{price}"
+    confirm-lore-3: "&7Bakiyeniz: &e{balance}"
+    cancel-button-name: "&cVazgeç"
+    cancel-lore: "&7Satın almadan geri dönmek için tıklayın"
+    display-price: "&eFiyat: &f{price}"
+    display-seller: "&eSatıcı: &f{seller}"
+    display-question: "&fBu eşyayı satın almak istediğinize emin misiniz?"
+
+# ========================================
+# CONFIRM CANCEL GUI
+# ========================================
+  confirm-cancel:
+    confirm-button-name: "&cİptali Onayla"
+    confirm-lore-1: "&7İlanı iptal etmek için tıklayın"
+    confirm-lore-2: "&7Eşya envanterinize iade edilecektir"
+    cancel-button-name: "&aGeri Dön"
+    cancel-lore: "&7İptal etmeden geri dönmek için tıklayın"
+    display-price: "&eFiyat: &f{price}"
+    display-question: "&fBu ilanı iptal etmek istediğinize emin misiniz?"
+
+# ========================================
+# NAVIGATION BUTTONS
+# ========================================
+buttons:
+  claim: "&e📦 Eşyaları Teslim Al"
+  claim-lore-pending: "&e{count} &feşya bekliyor!"
+  claim-lore-none: "&7Teslim alınacak eşya yok"
+  previous-page: "&eÖnceki Sayfa"
+  next-page: "&eSonraki Sayfa"
+  page-indicator: "&eSayfa {page}/{total}"
+  total-items: "&7Toplam eşya: &e{count}"
+  cross-server-enabled: "&7Sunucular arası senkron: &aAKTİF"
+  my-listings: "&eİlanlarım"
+  refresh: "&aYenile"
+  help: "&bYardım"
+  back-to-auction: "&cGeri Dön"
+  back: "&cGeri"
+  back-lore: "&7Geri dön: {location}"
+  sort: "&7Sıralama: &e{sort}"
+
+# ===============================================
+# BUYING MESSAGES
+# ===============================================
+buy:
+  success: "{prefix}&a✓ Başarıyla &e{item} &ax&e{amount} &aadedini &e{currency}{price} &aücretine satın aldınız!"
+  own-listing: "{prefix}&cKendi ilanınızı satın alamazsınız!"
+  not-enough-money: "{prefix}&cYeterli paranız yok! Gereken: &e{currency}{price}"
+  already-sold: "{prefix}&cBu eşya zaten satılmış!"
+  inventory-full: "{prefix}&cEnvanteriniz dolu! Eşya &e/ah claim &ckutusuna gönderildi."
+  listing-not-found: "{prefix}&cİlan bulunamadı."
+  purchase-success: "{prefix}&aEşyayı {currency}{price} karşılığında satın aldınız!"
+
+# ===============================================
+# CANCELING MESSAGES
+# ===============================================
+cancel:
+  item-returned-from-web: "{prefix}&aİptal edilen ilanınız &e{server}&a sunucusundan teslim edildi!"
+  item-dropped-from-web: "{prefix}&eİptal edilen ilanınız yere bırakıldı (envanter dolu)."
+  success: "{prefix}&aİlan iptal edildi! Eşya envanterinize aktarıldı."
+  not-found: "{prefix}&cİlan bulunamadı veya çoktan satıldı!"
+  not-owner: "{prefix}&cBu ilan size ait değil!"
+  inventory-full: "{prefix}&cEnvanteriniz dolu! Eşya &e/ah claim &ckutusuna gönderildi."
+  usage: "{prefix}&cKullanım: &e/ah cancel <ilan-id>"
+  wrong-server: "{prefix}&cBu ilanı yalnızca &e{server} &csunucusunda iptal edebilirsiniz!"
+  switch-server-hint: "{prefix}&7Lütfen &e{server} &7sunucusuna geçip orada deneyin."
+  corruption-prevention-info: "{prefix}&7Bu önlem sunucular arası eşya kaybını önler."
+  success-queued: "{prefix}&aİlan iptal edildi! Eşya &e{server}&a sunucusuna girişinizde verilecek."
+  will-deliver-on-login: "{prefix}&7Eşyanız herhangi bir sunucuya bağlandığınızda teslim edilecek."
+  failed: "{prefix}&cİlan iptal edilemedi. Lütfen tekrar deneyin."
+
+# ===============================================
+# EXPIRED ITEMS
+# ===============================================
+expired:
+  no-items: "{prefix}&cTeslim alınacak süresi dolmuş eşyanız yok."
+  all-returned: "{prefix}&aTüm süresi dolan eşyalar envanterinize iade edildi."
+  some-not-fit: "{prefix}&eBazı eşyalar envanterinize sığmadı. Lütfen yer açıp tekrar deneyin."
+
+# ===============================================
+# CLAIM SYSTEM
+# ===============================================
+claim:
+  expansion-disabled: "&cTeslim alma sistemi aktif değil!"
+  manager-not-available: "&cTeslimat yöneticisi şu anda kullanılamıyor!"
+  no-items: "&7Teslim alınacak eşyanız yok."
+  claiming-items: "&a{count} adet eşya teslim alınıyor..."
+  success: "{prefix}&a{count} adet eşya teslim alındı!"
+  success-details: "{prefix}&a{inventory} adet eşya envanterinize eklendi."
+  success-drops: "{prefix}&e{dropped} adet eşya yere düştü (envanter dolu)."
+  no-items-session-mode: "{prefix}&cBekleyen teslimat bulunmuyor."
+  no-items-positive: "{prefix}&aBekleyen herhangi bir teslimatınız yok."
+  items-pending: "{prefix}&eTeslim alabileceğiniz &f{count} &eeşyanız var."
+  use-command-hint: "{prefix}&7Almak için: &e/ah claim"
+  claimed-items: "{prefix}&aBaşarıyla &e{count} &aeşya teslim alındı!"
+
+# ===============================================
+# WEB INTERFACE
+# ===============================================
+web:
+  disabled: "{prefix}&cWeb arayüzü bu sunucuda devre dışıdır."
+  invalid-code: "{prefix}&cGeçersiz veya süresi dolmuş doğrulama kodu!"
+  verification-success: "{prefix}&a✓ Hesap başarıyla doğrulandı!"
+  item-received-purchase: "{prefix}&aWeb üzerinden satın alınan eşyayı aldınız ({currency}{price})!"
+  pending-purchases: "{prefix}&eWeb satın alımlarınız bekliyor! Envanterinizde yer açın."
+  listing-cancelled: "{prefix}&aİlan web üzerinden iptal edildi. Eşya teslim edildi."
+  listing-cancelled-returned: "{prefix}&aİlan web üzerinden iptal edildi. Eşya iade edildi."
+  pending-returns: "{prefix}&eBekleyen iade eşyalarınız var! Envanterinizde yer açın."
+  verification-requested: "{prefix}&eWeb doğrulaması talep edildi!"
+  verification-command: "&eKomutu çalıştırın: &a/ahplus verify {code}"
+  verification-expires: "&7Bu kodun geçerlilik süresi {minutes} dakikadır."
+  listing-cancelled-success: "{prefix}&aİlan web üzerinden başarıyla iptal edildi."
+  item-purchased: "{prefix}&aWeb üzerinden {currency}{price} karşılığında satın alındı!"
+  item-sold-to-buyer: "{prefix}&aEşyanız {buyer} adlı oyuncuya {currency}{price} karşılığında satıldı!"
+  item-sold-price: "{prefix}&aEşyanız web üzerinden {price} karşılığında satıldı."
+  pending-items-count: "{prefix}&eWeb üzerinden gelen {count} adet bekleyen eşyanız var!"
+  pending-items-instruction: "{prefix}&7Almak için: &e/ah claim"
+  item-purchased-via-web: "{prefix}&aWeb üzerinden {currency}{price} karşılığında satın aldınız."
+  item-sold-to-buyer-web: "{prefix}&aEşyanız web arayüzü üzerinden {buyer} oyuncusuna {currency}{price} karşılığında satıldı."
+  session-generated-success: "{prefix}&aWeb oturumu oluşturuldu!"
+  session-expires: "{prefix}&7Oturum süresi: {minutes} dakika."
+  session-url: "&7Bağlantıyı kopyalayın: &b{url}"
+  interface-url: "{prefix}&aWeb Arayüzü: &b{url}"
+  not-configured: "{prefix}&cWeb arayüzü yapılandırılmamış."
+  verify-usage: "{prefix}&cKullanım: /ahplus verify <kod>"
+  verification-success-password: "{prefix}&aDoğrulama başarılı!"
+  manager-not-available: "{prefix}&cWeb yöneticisi kullanılamıyor."
+  session-generated: "{prefix}&aWeb arayüzüne erişmek için tıklayın: &e{url}"
+  session-generating: "{prefix}&eWeb oturumu oluşturuluyor, lütfen bekleyin..."
+
+# ===============================================
+# DISCORD INTEGRATION
+# ===============================================
+discord:
+  linking-disabled: "{prefix}&cDiscord entegrasyonu aktif değil."
+  already-linked-to: "❌ Discord hesabınız zaten **{player}** ile eşleştirilmiş!"
+  item-purchased: "{prefix}&aDiscord üzerinden {currency}{price} karşılığında eşya satın aldınız!"
+  item-sold: "{prefix}&aEşyanız Discord üzerinden {currency}{price} karşılığında satıldı!"
+  not-linked: "❌ Discord hesabınız bağlı değil!"
+  link-usage: "{prefix}&cKullanım: /auctionhouselink <kod>"
+  link-get-code-first: "{prefix}&eÖnce Discord üzerinden /auctionhouselink komutu ile kod alın."
+  link-commands-available: "{prefix}&eArtık Discord komutlarını kullanabilirsiniz!"
+  link-success: "{prefix}&a✓ Discord hesabı başarıyla eşleştirildi!"
+  link-invalid-code: "{prefix}&cGeçersiz veya süresi dolmuş eşleştirme kodu."
+
+# ===============================================
+# VELOCITY/CROSS-SERVER
+# ===============================================
+velocity:
+  item-purchased: "{prefix}&a✓ Birisi eşyanızı {currency}{price} karşılığında satın aldı!"
+  item-purchased-transferring: "{prefix}&a✔ Eşya satın alındı! Para satıcıya aktarılıyor..."
+  payment-system-unavailable: "{prefix}&e⚠ Ödeme sistemi kullanılamıyor - yöneticiye bildirin"
+  item-received-from: "{prefix}&a{server} sunucusundaki {seller} oyuncusundan satın alınan eşyayı teslim aldınız."
+  item-dropped-from: "{prefix}&e{server} sunucusundan gelen eşya yere düştü (envanter dolu)."
+  item-received-server: "{prefix}&a{server} sunucusundan eşya aldınız!"
+  payment-received-from: "{prefix}&a✓ {server} sunucusundaki satıştan {currency}{amount} kazandınız!"
+  item-purchased-from: "{prefix}&a✓ {server} sunucusundan birisi {item} eşyanızı {currency}{price} karşılığında aldı!"
+  delivery-failed-refunded: "{prefix}&c✖ Eşya teslim edilemedi! Ücret iade edildi."
+  item-from-different-server: "{prefix}&cBu eşya farklı bir sunucuya ait!"
+  server-must-be-specified: "{prefix}&cSunucu belirtilmelidir."
+
+# ===============================================
+# LISTING LIMITS
+# ===============================================
+limits:
+  info-header: "{prefix}&eİhale İlan Bilgileri:"
+  your-rank: "&eRütbeniz: &f{rank}"
+  current-listings: "&eAktif İlanlarınız: &a{current}&7/&e{max}"
+  available-slots: "&eKullanılabilir Yuvalar: &a{available}"
+  tip-web: "&7İpucu: İlanlarınızı oyun içinden kolayca yönetebilirsiniz!"
+  tip-discord: "&7İpucu: /ah listings yazarak ilanlarınızı kontrol edin!"
+
+# ===============================================
+# ADMIN COMMANDS
+# ===============================================
+admin:
+  status-header: "{prefix}&eAuctionHouse Plus Durumu:"
+  status-enabled: "&aAktif"
+  status-disabled: "&cDevre Dışı"
+  status-web-expansion: "&eWeb Eklentisi: {status}"
+  status-discord: "&eDiscord Entegrasyonu: {status}"
+  status-web-server: "&eWeb Sunucusu: &aPort {port}"
+  status-web-url: "&eWeb URL: &b{url}"
+  status-registered-users: "&eKayıtlı Kullanıcılar: &a{count}"
+  status-active-auctions: "&eAktif İlanlar: &a{count}"
+  reload-web-url: "&bWeb URL: &f{url}"
+  reload-web-failed: "{prefix}&cAyar yenilendi, ancak web sunucusu başlatılamadı."
+
+# ===============================================
+# HELP MENU
+# ===============================================
+help:
+  header: "{prefix}&e=== kdyMC 2.0 İhale Pazarı Yardım ==="
+  footer-line: "&e===================================="
+  
+  # Basic Commands
+  main: "&e/ah &7- İhale pazarını açar"
+  sell: "&e/ah sell <fiyat> &7- Elinizdeki eşyayı satışa sunar"
+  cancel: "&e/ah cancel <ilan-id> &7- İlanınızı iptal eder"
+  expired: "&e/ah expired &7- Süresi dolan eşyalarınızı geri alır"
+  listings: "&e/ah listings &7- İlanlarınızı görüntüler ve yönetir"
+  limit: "&e/ah limit &7- İlan limitinizi kontrol eder"
+  help: "&e/ah help &7- Bu yardım menüsünü görüntüler"
+  settings: "&e/ah settings &7- Ayarlar menüsünü açar"
+  
+  # Web Commands
+  web: "&e/ah web &7- Web arayüzüne erişir"
+  session: "&e/ah session &7- Web oturum bağlantısı üretir"
+  web-commands-header: "&bWeb Komutları:"
+  ahplus-verify-short: "&e/ahplus verify <kod> &7- Web hesabını doğrular"
+  web-interface-info: "&bWeb Arayüzü: &f{url}"
+  session-mode-enabled: "&bOturum Modu: &aAktif"
+  session-mode-instructions: "&7Geçici bağlantı için /ah web veya /ah session kullanın"
+  
+  # Discord Commands
+  discord-link: "&e/auctionhouselink <kod> &7- Discord hesabınızı bağlar"
+  
+  # Admin Commands
+  reload: "&e/ah reload &7- Eklenti yapılandırmasını yeniler"
+  
+  # AHPlus Help
+  ahplus-header: "&e========== &fkdyMC 2.0 İhale Yardım &e=========="
+  ahplus-footer: "&e==============================================="
+  ahplus-verify: "&e/ahplus verify <kod> &7- Web doğrulaması yapar"
+  ahplus-pending: "&e/ahplus pending &7- Bekleyen eşyaları kontrol eder"
+  ahplus-claim: "&e/ahplus claim &7- Bekleyen eşyaları teslim alır"
+  ahplus-status: "&e/ahplus status &7- Eklenti durumunu gösterir"
+  web-interface-url: "&bWeb Arayüzü: &f{url}"
+  discord-commands-header: "&dDiscord Komutları:"
+  status-web: "&7Web eklentisi: {status}"
+  status-discord: "&7Discord entegrasyonu: {status}"
+  
+  # Cross-Server
+  cross-server-enabled: "&eSunucular Arası: &aAktif"
+  current-server: "&7Sunucu: &e{server}"
+
+# ===============================================
+# NOTIFICATIONS
+# ===============================================
+  payment-received-sales: "{prefix}&aSatılan eşyalarınızdan &e{currency}{amount} &akazandınız!"
+
+# ===============================================
+# ERROR MESSAGES
+# ===============================================
+errors:
+  transaction-failed: "{prefix}&cİşlem başarısız oldu! Lütfen tekrar deneyin."
+  invalid-item-data: "{prefix}&cGeçersiz eşya verisi."
+  not-shulker-box: "{prefix}&cBu bir shulker kutusu değil!"

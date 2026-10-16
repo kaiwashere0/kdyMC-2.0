@@ -1,0 +1,73 @@
+# Plugin Message Prefix
+prefix: '&e&l[kdyMC 2.0] &f'
+
+# Currency
+currency-singular: Kredi
+currency-plural: Kredi
+currency-separator: '.'
+currency-decimal: ','
+number-abbreviation-thousands: bin
+number-abbreviation-millions: mn
+number-abbreviation-billions: mr
+
+# Misc
+no-permission: '&e&l[kdyMC 2.0] &fBu komutu kullanmak için &e&oyetkiniz bulunmuyor!'
+only-player: '&e&l[kdyMC 2.0] &fBu komut yalnızca oyuncular tarafından kullanılabilir.'
+invalid-amount: '&e&l[kdyMC 2.0] &fMiktar pozitif bir tam sayı olmalıdır.'
+unknown-player: '&e&l[kdyMC 2.0] &fOyuncu bulunamadı: &e%player%'
+unknown-account: '&e&l[kdyMC 2.0] &fHesap bulunamadı: &e%account%'
+unknown-command: '&e&l[kdyMC 2.0] &fBilinmeyen komut: &e%input%'
+invalid-argument: '&e&l[kdyMC 2.0] &fGeçersiz parametre: %message%.'
+command-usage: '&e&l[kdyMC 2.0] &fKullanım: &e/%cmd% %args%'
+argument-handler-string: Metin boş bırakılamaz
+argument-handler-enum: '%enum% türü [%input%] mevcut değil'
+argument-handler-enum-list: '%enum% türü [%input%] mevcut değil. Geçerli türler: %types%'
+argument-handler-value: Değer [%input%] geçersiz
+votifier-voted: '&e&l[kdyMC 2.0] &fOy verdiğiniz için teşekkürler! Hesabınıza &e%amount% Kredi &feklendi.'
+leaderboard-empty-entry: Burada sen olabilirdin!
+command-cooldown: '&e&l[kdyMC 2.0] &fLütfen komutu tekrar kullanmadan önce bekleyiniz.'
+
+# Base Command Message
+base-command-color: '&e'
+base-command-help: '&eKomut listesi için &f/%cmd% help &eyazabilirsiniz.'
+
+# Help Command
+command-help-description: Yardım menüsünü gösterir.
+command-help-title: '&e&m-------------&r &e&l✦ &f&lkdyMC 2.0 Kredi Yardım &e&l✦ &e&m-------------'
+
+# Give Command
+command-give-description: Oyuncuya kredi verir.
+command-give-success: '&e%player% &fadlı oyuncuya &e%amount% Kredi &fverildi.'
+command-give-received: 'Hesabınıza &e%amount% Kredi &feklendi!'
+
+# Take Command
+command-take-description: Oyuncudan kredi çeker.
+command-take-success: '&e%player% &fadlı oyuncudan &e%amount% Kredi &falındı.'
+command-take-lacking: '&e%player% &fadlı oyuncunun yeterli kredisi yok.'
+
+# Look Command
+command-look-description: Bir oyuncunun kredisine bakar.
+command-look-success: '&e%player% &fadlı oyuncunun bakiyesi: &e%amount% Kredi'
+
+# Pay Command
+command-pay-description: Bir oyuncuya kredi gönderir.
+command-pay-success: '&e%player% &fadlı oyuncuya &e%amount% Kredi &fgönderildi.'
+command-pay-received: '&e%player% &fsize &e%amount% Kredi &fgönderdi!'
+command-pay-lacking: 'Yeterli krediniz bulunmamaktadır!'
+
+# Set Command
+command-set-description: Bir oyuncunun kredisini ayarlar.
+command-set-success: '&e%player% &fadlı oyuncunun kredisi &e%amount% &folarak ayarlandı.'
+
+# Reset Command
+command-reset-description: Bir oyuncunun kredisini sıfırlar.
+command-reset-success: '&e%player% &fadlı oyuncunun kredisi sıfırlandı.'
+
+# Me Command
+command-me-description: Kendi kredinize bakar.
+command-me-success: 'Mevcut Bakiyeniz: &e%amount% Kredi'
+
+# Lead Command
+command-lead-description: En çok kredisi olanları listeler.
+command-lead-title: '&e&m-------------&r &e&l✦ &f&lKredi Sıralaması &e&l✦ &e&m-------------'
+command-lead-entry: '&e%position%. &f%player%: &e%amount% Kredi'

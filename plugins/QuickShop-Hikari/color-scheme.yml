@@ -1,0 +1,13 @@
+color-scheme:
+  success: "#ffff55"
+  warning: "#ffaa00"
+  failure: "#ff5555"
+  danger: "#ff3300"
+  price: "#ffff55"
+  main: "#ffffff"
+  argument: "#ffff55"
+  light: "#ffffff"
+  dark: "#aaaaaa"
+  very_dark: "#555555"
+  title: "#ffff55"
+  description: "#ffffff"
